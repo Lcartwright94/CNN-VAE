@@ -6,7 +6,7 @@ Throughout my time learning to build and fit CNN VAE with R Keras, I struggled t
 
 # Credit where credit is due
 
-During my search I did find a very good R Keras tutorial for a VAE built with dense (fully-connected) layers, written by Daniel Falbel, JJ Allaire, and François Chollet. I have taken their model, and tweaked it by changing some of the layers from dense to convolutional, as well as adjusting a few other things to improve the fit under the new layer structure. The VAE tutorial can be found at:
+During my search I did find a very good R Keras tutorial for a VAE built with dense (fully-connected) layers, written by Daniel Falbel, JJ Allaire, and François Chollet. I have taken their model, and tweaked it by changing some of the layers from dense to convolutional, as well as adjusting a few other things to improve the fit under the new layer structure. I also changed cross-entropy component of the loss function to a mean squared error function, since I am focussed on regression applications. The VAE tutorial can be found at:
 
 https://keras.rstudio.com/articles/examples/variational_autoencoder.html
 
